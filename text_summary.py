@@ -55,4 +55,3 @@ def summarizer(rawdocs):
     summary=' '.join(final_summary)
     
     return summary, doc , len(rawdocs.split(' ')) , len(summary.split(' '))
-
